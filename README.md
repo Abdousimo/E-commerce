@@ -1,9 +1,30 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
-Make sur that you have install :
-Strapi in your machine
-First, run the development server:
+Make sur that you have in your machine :
+Node js
+
+once you have cloned the repo run :
+```bash
+npm install 
+```
+to install all node-modules in the project
+
+-clone the repo of (strapi-cms) you can find it in this url :
+[https://github.com/Abdousimo/strapi-ecommerce.git]
+
+-move to this strapi directory and run 
+
+```bash
+npm install
+
+npm run develop
+```
+after this the server of strapi is runned in your machine in this url :
+
+[http://localhost:1137]
+
+-run the development server in the nextjs folder using:
 
 ```bash
 npm run dev
