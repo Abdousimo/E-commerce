@@ -7,9 +7,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      container:{
+        center:true,
+        padding:'1rem'
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary:"#404eca",
+        primary_hover:"#5947e0"
       },
     },
   },
